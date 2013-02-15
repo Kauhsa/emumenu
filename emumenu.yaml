@@ -1,0 +1,18 @@
+#groups:
+#  - name: "NES"
+#    entries:
+#        - folder:
+#            path: "/home/mika/roms/NES"
+#            filters: ['nes']
+#            cmd: "retroarch -L /usr/lib/libretro/libretro-fceu.so %s"
+#
+#  - name: "Games"
+#    entries:
+#        - single:
+#            name: "First"
+#            cmd: "do_stuff"
+#        - single:
+#            name: "Second"
+#            cmd: "do_more_stuff"
+#
+#command: "dmenu -i -l 20"
